@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PodsumowanieActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/TextViewHeader"
+        android:text="@string/activity_podsumowanie_podsumowanie" />
+
+    <View style="@style/DividingLine" />
+
+    <RelativeLayout
+        android:id="@+id/layoutContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tv_strefa"
+            style="@style/TextViewInfo"
+            android:layout_alignTop="@+id/layoutContent"
+            android:layout_marginTop="6dp"
+            android:text="@string/activity_podsumowanie_strefa" />
+
+        <TextView
+            android:id="@+id/tv_produkt"
+            style="@style/TextViewInfo"
+            android:layout_below="@+id/tv_strefa"
+            android:text="@string/activity_podsumowanie_produkt" />
+
+        <TextView
+            android:id="@+id/tv_cena"
+            style="@style/TextViewInfo"
+            android:layout_below="@+id/tv_produkt"
+            android:text="@string/activity_podsumowanie_cena" />
+
+        <TextView
+            android:id="@+id/tv_ilosc"
+            style="@style/TextViewInfo"
+            android:layout_below="@+id/tv_cena"
+            android:text="@string/activity_podsumowanie_ilosc" />
+
+        <TextView
+            android:id="@+id/tv_miara"
+            style="@style/TextViewInfo"
+            android:layout_below="@+id/tv_ilosc"
+            android:text="@string/activity_podsumowanie_miara" />
+
+        <TextView
+            android:id="@+id/tv_strefa_value"
+            style="@style/TextViewValue"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/layoutContent"
+            android:layout_marginTop="6dp"
+            android:text="Strefa B" />
+
+        <TextView
+            android:id="@+id/tv_produkt_value"
+            style="@style/TextViewValue"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_strefa_value"
+            android:text="Produkt2" />
+
+        <TextView
+            android:id="@+id/tv_cena_value"
+            style="@style/TextViewValue"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_produkt_value"
+            android:text="3500 PLN" />
+
+        <TextView
+            android:id="@+id/tv_ilosc_value"
+            style="@style/TextViewValue"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_cena_value"
+            android:text="20" />
+
+        <TextView
+            android:id="@+id/tv_miara_value"
+            style="@style/TextViewValue"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_ilosc_value"
+            android:text="SZT" />
+
+        <LinearLayout
+            android:id="@+id/buttonsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/buttonsLayoutContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" >
+
+                    <Button
+                        android:id="@+id/buttonOK"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/zatwierdz"
+                        android:width="128dp" />
+
+                    <Button
+                        android:id="@+id/buttonAnuluj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:text="@string/anuluj"
+                        android:width="128dp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

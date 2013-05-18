@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobilnyMagazynier</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tak">Tak</string>
+    <string name="nie">Nie</string>
+    <string name="ok">OK</string>
+    <string name="anuluj">Anuluj</string>
+    <string name="ponow">Ponów próbę</string>
+    <string name="wyslij">Wyślij</string>
+    <string name="activity_podsumowanie_title">Podsumowanie</string>
+    <string name="activity_podsumowanie_podsumowanie">Podsumowanie</string>
+    <string name="activity_podsumowanie_strefa">Strefa:</string>
+    <string name="activity_podsumowanie_ilosc">Ilość:</string>
+    <string name="activity_podsumowanie_cena">Cena:</string>
+    <string name="activity_podsumowanie_miara">Miara:</string>
+    <string name="activity_podsumowanie_produkt">Produkt:</string>
+    <string name="activity_podsumowanie_dialog_istnieje_title">Ostrzeżenie!</string>
+    <string name="activity_podsumowanie_dialog_istnieje_message">Produkt istnieje w ilości 5. Nadpisać zmiany?</string>
+    <string name="activity_podsumowanie_dialog_sukces_title">Potwierdzenie!</string>
+    <string name="activity_podsumowanie_dialog_sukces_message">Zmiany zostały wprowadzone.</string>
+    <string name="activity_podsumowanie_dialog_blad_title">Błąd!</string>
+    <string name="activity_podsumowanie_dialog_blad_message">Wysyłanie nie powiodło się.</string>
+    <string name="activity_podsumowanie_dialog_wysylanie_message">Wysyłanie w toku&#8230;</string>
+    <string name="activity_skan_title">Skanuj Serię</string>
+    <string name="activity_skan_skanuj">Zeskanuj Serię</string>
+    <string name="loginHeader">Login OpenERP</string>
+    <string name="serwer">Serwer:</string>
+    <string name="serwerHint">Zmień w Ustawieniach</string>
+    <string name="bazaDanych">Baza danych:</string>
+    <string name="uzytkownik">Użytkownik:</string>
+    <string name="textHaslo">Hasło:</string>
+    <string name="zatwierdz">Zatwierdź</string>
+    <string name="title_activity_select_product">SelectProductActivity</string>
+    <string name="button_next">Ok</string>
+    <string name="label_price">Cena:</string>
+    <string name="label_quantity">Ilość:</string>
+    <string name="label_unit">Jednostka miary:</string>
+    <string name="title_activity_skan">SkanActivity</string>
+    <string name="title_activity_podsumowanie">PodsumowanieActivity</string>
+    <string name="title_activity_magazyn_menu">MagazynMenuActivity</string>
+    <string name="magazyn_menu_header">MAGAZYN</string>
+    <string name="magazyn_menu_wydanie_zew">WYDANIE ZEWNĘTRZNE</string>
+    <string name="magazyn_menu_inwentaryzacja">INWENTARYZACJA</string>
+
+    <string-array name="dbItems"></string-array>
+
+    <string name="title_activity_strefa">StrefaActivity</string>
+    <string name="strefa_header">WYBIERZ STREFĘ</string>
+    <string name="title_activity_klient">KlientActivity</string>
+    <string name="klient_header">WYBIERZ KLIENTA</string>
+
+</resources>
